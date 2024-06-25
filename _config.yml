@@ -17,13 +17,12 @@
 # Feel free to change these! For more info, refer to:
 # ~> https://jekyllrb.com/docs/configuration/options/
 
-title:            'Wax'
+title:            'Minicomp/Wax'
 description:      'Minimal Exhibitions with Jekyll'
-url:              'https://minicomp.github.io'
-baseurl:          '/wax'
-copyright:        'Example copyright org, 2023'
-logo:             '/assets/logo.png'
-default_thumb:    '/assets/default.png'
+url:              'https://ideal-space-broccoli-64xv7446wrvh4p69-4000.app.github.dev/'
+baseurl:          ''
+copyright:        'Example copyright org, 2018'
+
 
 # ---------------------------------------------------------------
 # BUILD SETTINGS
@@ -65,7 +64,7 @@ collections:
     metadata:
       source: 'qatar.csv' # path to the metadata file within `_data`
     images:
-      source: 'raw_images/qatar' # path to the directory of images within `_data`
+      source: '/workspaces/staticExhibition/_data/qatar.csv' # path to the directory of images within `_data`
 
 # --------------------------------------------------------------
 # SEARCH INDEX SETTINGS
@@ -77,7 +76,7 @@ collections:
 
 search:
   main:
-    index: '/search/index.json' # file the index will get written to
+    index: '/workspaces/staticExhibition/search/index.json' # file the index will get written to
     collections:
       qatar:
         content: false # whether or not to index page content

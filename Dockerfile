@@ -1,6 +1,6 @@
 FROM ruby:2.7.2
 
-MAINTAINER Andrew Woods <awoods01@gmail.com>
+#MAINTAINER Andrew Woods <awoods01@gmail.com>
 
 # Install apt dependencies
 RUN apt-get update -y
